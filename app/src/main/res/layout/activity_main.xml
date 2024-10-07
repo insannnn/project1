@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/flashcards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flashcards"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/tracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress Tracker"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To-Do List"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
